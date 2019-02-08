@@ -1,0 +1,39 @@
+html, body{
+    height:100%;
+    max-height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+.top-container{
+    padding-top:10%;
+}
+.general-container{
+    background: url('images/background_image.jpg') no-repeat;
+    background-size:cover;
+    height: 100%;
+
+
+}
+.general-container form{
+    margin-top: 30px;
+}
+.general-container form label{
+    font-weight: 100!important;
+    color:white;
+    margin-left: 5px;
+    margin-right: 2px;
+}
+.orange-btn{
+    background-color: rebeccapurple;
+    border: none;
+    margin-left: 10px;
+}
+.orange-btn:hover{
+    background-color: #de5129;
+    border: none;
+}
+.title{
+    color:white;
+    text-align:center;
+    font-weight:100;
+    line-height:70px;
+}
