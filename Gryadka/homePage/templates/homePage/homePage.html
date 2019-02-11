@@ -1,11 +1,15 @@
-{% extends "homePage\wrapper.html" %}
+{% extends "wrapper.html" %}
+
 
 {% block content %}
 
 <div class="general-container">
     <div class="container top-container">
         <div class="row text-center">
-            <div class="col-lg-12">
+            <div class="col-lg-1">
+
+            </div>
+            <div class="col-lg-10">
                 <h1 class="title">Скоро открытие сайта!<br>
                     Оставьте e-mail для оповещения
                     <p>Сегодня: {{ current_day }}</p>
@@ -20,11 +24,17 @@
                             <label>Ваш e-mail: </label>
                             <input type="email" name="{{form.email.name}}" class="form-control">
                         </div>
-                        <button type="submit" class="btn btn-primary orange-btn">
-                            Отправить
-                        </button>
+                        <div>
+                            <button type="submit" class="btn btn-primary orange-btn">
+                                Отправить
+                            </button>
+                        </div>
                     </form>
                 </div>
+
+            </div>
+            <div class="col-lg-1">
+
             </div>
         </div>
     </div>
